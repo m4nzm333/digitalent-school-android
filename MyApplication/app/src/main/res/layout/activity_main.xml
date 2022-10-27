@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Name to Store in SQLite"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Store" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get All Names From SQlite" />
+
+    <TextView
+        android:id="@+id/tvNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Names"
+        android:textSize="18sp"/>
+
+    <ListView
+        android:id="@+id/lvStudent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

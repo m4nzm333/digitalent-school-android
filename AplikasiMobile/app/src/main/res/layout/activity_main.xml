@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/lbl_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_nama"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_conversion_absoluteWidth="138dp" />
+
+    <EditText
+        android:id="@+id/txtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_conversion_absoluteWidth="331dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/btnTampilNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_tampil_nama"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_editor_absoluteY="104dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_conversion_absoluteWidth="331dp" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        tools:layout_conversion_absoluteHeight="41dp"
+        tools:layout_editor_absoluteY="152dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_conversion_absoluteWidth="331dp" />
+</LinearLayout>

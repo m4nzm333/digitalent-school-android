@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Aplikasi Mobile</string>
+
+    <string name="lbl_nama">Masukkan nama anda</string>
+    <string name="btn_tampil_nama">Tampilkan</string>
+</resources>
